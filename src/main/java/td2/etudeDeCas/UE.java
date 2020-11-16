@@ -1,4 +1,4 @@
-package td2.universite;
+package td2.etudeDeCas;
 
 import java.util.Map;
 

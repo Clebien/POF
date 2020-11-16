@@ -1,8 +1,9 @@
-package td2.universite;
+package td2.etudeDeCas;
 
 import java.util.HashMap;
 import java.util.Map;
 import java.util.Map.Entry;
+import java.util.function.BiPredicate;
 
 public class Etudiant {
     private String prenom;
@@ -28,7 +29,7 @@ public class Etudiant {
         return nom;
     }
 
-    public String numero() {
+    public  String numero() {
         return numero;
     }
 
@@ -73,4 +74,7 @@ public class Etudiant {
         }
         return rtr.toString();
     }
+
+
+
 }

@@ -1,2 +1,4 @@
-package td2.interfacesFonc;public interface ToString {
+package td2.interfacesFonc;
+
+public interface ToString {
 }

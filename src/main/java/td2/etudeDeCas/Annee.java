@@ -1,7 +1,8 @@
-package td2.universite;
+package td2.etudeDeCas;
 
 import java.util.HashSet;
 import java.util.Set;
+import java.util.function.BiPredicate;
 
 public class Annee {
     private Set<UE> ues;
@@ -23,4 +24,6 @@ public class Annee {
     void inscrire(Etudiant e) {
         etudiants.add(e);
     }
+
+
 }
