@@ -1,6 +1,4 @@
-package Package1.v1;
-
-import java.util.List;
+package td1.paire;
 
 public class Paire <A,B>{
     private _fst;
